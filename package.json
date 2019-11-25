@@ -4,9 +4,10 @@
   "description": "",
   "main": "webpack.common.js",
   "scripts": {
-    "start": "webpack-dev-server --open --config webpack.dev.js --mode development",
+    "start:dev": "webpack-dev-server --open --config webpack.dev.js --mode development",
+    "start": "webpack --open --config webpack.prod.js --mode production",
     "build": "webpack --config webpack.prod.js --mode production",
-    "serve": "node server.js"
+    "serve": "node ./dist/server.js"
   },
   "repository": {
     "type": "git",
