@@ -645,8 +645,9 @@ const layers = [
       'circle-color': voltage_color('voltage'),
       'circle-stroke-width': ['interpolate', ['linear'], ['zoom'],
           5, 0,
-          6, 0.01,
-          12, 1.5,
+          6, 0.1,
+          8, 0.5,
+          15, 1
       ]
     },
   },
