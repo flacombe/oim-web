@@ -67,7 +67,7 @@ function init() {
   layer_switcher.setInitialVisibility(map_style);
 
   if (DEV) {
-    map_style['sprite'] = 'http://localhost:8080/style/sprite';
+    map_style['sprite'] = 'http://map.infos-reseaux.com/style/sprite';
     //map_style['sources']['openinframap']['url'] = 'http://localhost:8081/capabilities/openinframap.json'
   }
 
@@ -77,7 +77,8 @@ function init() {
     hash: false,
     minZoom: 2,
     maxZoom: 17.9,
-    center: [12, 26],
+    center: [2.727, 46.125],
+    zoom:4.9
   }, url_hash.getPosition()));
 
   url_hash.onAdd(map);
