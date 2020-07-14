@@ -12,6 +12,11 @@ const operator_text = ["step", ["zoom"],
         ]
       ];
 
+const operator_label = ["case", ['has', 'operator'],
+             ["concat", ' (', ['get', 'operator'], ')'],
+             ''
+        ];
+
 const underground_p = ["any",
   ['==', ['get', 'location'], 'underground'],
   ['==', ['get', 'location'], 'underwater'],
@@ -22,4 +27,4 @@ const underground_p = ["any",
   ]
 ];
 
-export {text_paint, operator_text, underground_p};
+export {text_paint, operator_text, operator_label, underground_p};

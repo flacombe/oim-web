@@ -1,22 +1,22 @@
 {
   "version": 8,
-  "name": "OpenInfraMap",
+  "name": "InfosReseaux",
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=u7opxtdfvwPiFOPwMWeC"
+      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=2raHq2ahXwNHsKorHH5t"
     },
     "openinframap": {
       "type": "vector",
-      "url": "https://openinframap.org/map.json"
+      "url": "https://map.infos-reseaux.com/map.json"
     },
     "solar_heatmap": {
       "type": "vector",
-      "url": "https://openinframap.org/heatmap.json"
+      "url": "https://map.infos-reseaux.com/heatmap.json"
     }
   },
-  "sprite": "https://openinframap.org/style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=u7opxtdfvwPiFOPwMWeC",
+  "sprite": "https://map.infos-reseaux.com/style/sprite",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=2raHq2ahXwNHsKorHH5t",
   "layers": [],
-  "id": "openinframap"
+  "id": "infosreseaux"
 }
